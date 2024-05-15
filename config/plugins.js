@@ -1,5 +1,5 @@
 module.exports = () => ({
-  "vercel-deploy": {
-    enabled: true,
-  },
+//   "vercel-deploy": {
+//     enabled: true,
+//   },
 });
