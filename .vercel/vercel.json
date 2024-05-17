@@ -1,7 +1,9 @@
 {
-  "build": {
-    "env": {
-      "NODE_VERSION": "18"
+  "rewrites": [{ "source": "/api/:path*", "destination": "/api/:path*" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
     }
-  }
+  ]
 }
